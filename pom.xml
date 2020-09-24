@@ -10,7 +10,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>9</maven.compiler.release>
+    <maven.compiler.release>12</maven.compiler.release>
   </properties>
 
   <dependencies>
@@ -38,6 +38,9 @@
         <version>0.0.3</version>
         <configuration>
           <mainClass>com.glensoft.trinote.Main</mainClass>
+          <source>12</source>
+          <target>12</target>
+          <release>12</release>
         </configuration>
       </plugin>
     </plugins>
